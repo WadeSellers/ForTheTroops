@@ -8,6 +8,7 @@
 
 import UIKit
 import YelpAPI
+import SwiftyJSON
 
 class ViewController: UIViewController {
 
@@ -25,7 +26,8 @@ class ViewController: UIViewController {
         ylpClient.sharedInstance.businessWithPhoneNumber("+1-717-774-7234") { (ylpPhoneSearch, error) in
             if ylpPhoneSearch != nil {
                 for biz in (ylpPhoneSearch?.businesses)! {
-                    dump(biz.categories)
+                    let business = biz
+                    print(business.description)
                 }
             } else {
                 print(error)
