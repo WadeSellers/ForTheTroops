@@ -15,6 +15,7 @@
 		18B9198A1D1CF10A0067574C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B919881D1CF10A0067574C /* LaunchScreen.storyboard */; };
 		18B919951D1CF10A0067574C /* ForTheTroopsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B919941D1CF10A0067574C /* ForTheTroopsTests.swift */; };
 		18B919A01D1CF10A0067574C /* ForTheTroopsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B9199F1D1CF10A0067574C /* ForTheTroopsUITests.swift */; };
+		18B919B01D1CF9AD0067574C /* ylpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B919AF1D1CF9AD0067574C /* ylpClient.swift */; };
 		28592C6073FCFED7C97BCB3A /* Pods_ForTheTroopsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4685B3CE388546B04F801C5 /* Pods_ForTheTroopsTests.framework */; };
 		37AB839458BC9C0251F6EF1F /* Pods_ForTheTroops.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2769469C1BA9C92BD11D04F7 /* Pods_ForTheTroops.framework */; };
 		8F4C5A90696EADC2FB7A41F5 /* Pods_ForTheTroopsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B933224F341347D52C6AC9 /* Pods_ForTheTroopsUITests.framework */; };
@@ -52,6 +53,7 @@
 		18B9199B1D1CF10A0067574C /* ForTheTroopsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForTheTroopsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B9199F1D1CF10A0067574C /* ForTheTroopsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForTheTroopsUITests.swift; sourceTree = "<group>"; };
 		18B919A11D1CF10A0067574C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B919AF1D1CF9AD0067574C /* ylpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ylpClient.swift; sourceTree = "<group>"; };
 		2769469C1BA9C92BD11D04F7 /* Pods_ForTheTroops.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForTheTroops.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35E77A45994B01AE5B77453A /* Pods-ForTheTroopsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForTheTroopsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ForTheTroopsTests/Pods-ForTheTroopsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5ED8AF6C9C023CA46F0A4801 /* Pods-ForTheTroops.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForTheTroops.release.xcconfig"; path = "Pods/Target Support Files/Pods-ForTheTroops/Pods-ForTheTroops.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				18B919881D1CF10A0067574C /* LaunchScreen.storyboard */,
 				18B9198B1D1CF10A0067574C /* Info.plist */,
 				18B919831D1CF10A0067574C /* ForTheTroops.xcdatamodeld */,
+				18B919AF1D1CF9AD0067574C /* ylpClient.swift */,
 			);
 			path = ForTheTroops;
 			sourceTree = "<group>";
@@ -432,6 +435,7 @@
 			files = (
 				18B9197F1D1CF10A0067574C /* ViewController.swift in Sources */,
 				18B919851D1CF10A0067574C /* ForTheTroops.xcdatamodeld in Sources */,
+				18B919B01D1CF9AD0067574C /* ylpClient.swift in Sources */,
 				18B9197D1D1CF10A0067574C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
