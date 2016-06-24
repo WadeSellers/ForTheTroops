@@ -1,0 +1,6 @@
+framework module Pods_ForTheTroopsUITests {
+  umbrella header "Pods-ForTheTroopsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

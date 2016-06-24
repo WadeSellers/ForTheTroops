@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (3.4.1)
+  - OMGHTTPURLRQ/UserAgent (3.1.2)
+  - TDOAuth (1.1.2):
+    - OMGHTTPURLRQ/UserAgent
+  - YelpAPI (1.0.4):
+    - TDOAuth (~> 1.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - YelpAPI
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  OMGHTTPURLRQ: 38316b56d88125c600bcdb16df8329147da2b0ee
+  TDOAuth: f7e356e834295b83c7b5066ee72a30f128c5f722
+  YelpAPI: 4104b480da9cad56adfc1d26b5f9c42cac64ff01
+
+PODFILE CHECKSUM: fff4af5ae583e20ac064a06fdc8e4785aa1a0fcc
+
+COCOAPODS: 1.0.1
