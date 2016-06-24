@@ -9,6 +9,7 @@ target 'ForTheTroops' do
 
     pod 'Alamofire'
     pod 'YelpAPI'
+    pod 'SwiftyJSON'
 
   target 'ForTheTroopsTests' do
     inherit! :search_paths
